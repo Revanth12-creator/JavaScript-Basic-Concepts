@@ -1,0 +1,72 @@
+body{
+    background-image:url(./images/IN-en-20200302-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#TextBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+#TextBlock h1,h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 20px;
+}
+#TextBlock p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+#search{
+    width: 450px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+
+ #MovieList{
+    margin-top: 30px;
+    
+} 
+.AllMovieList{
+    float: left;
+    background-color: white;
+    border: 5px solid darkslategray;
+    height: 570px;
+}
+  
+.AllMovieList,img{
+    width: 252px;
+    padding: 10px;
+    padding-right: 28px;    
+    object-fit: cover;  
+}
+
+.AllMovieList,h3,h4{
+    color: black;
+}
+.AllMovieList h3{
+    text-align: center;
+    height: 45px;
+
+}
+.AllMovieList h4{
+    text-align: center;
+    font-size: 17px;
+}
+
+.AllMovieList a{
+    border: 5px solid mintcream;
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    margin-left: 43px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../../fonts/fontawesome/fontawesome-free-5.12.1-web/css/all.css">
+</head>
+<body>
+    <section>
+        <article>
+            <div id="Speech">
+                <input type="text" id="search" placeholder="Search"> 
+                    <div>
+                        <button id="btn" ><i class="fas fa-microphone" ></i></button>
+                    </div>
+            </div>
+            <p id="para"></p>
+        </article>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+let btn=document.getElementById("btn");
+btn.addEventListener("click",speech );
+
+function speech() {
+    window.SpeechRecognition=window.SpeechRecognition || window.webkitSpeechRecognition;
+    let Recognition=new SpeechRecognition();//this Object of speechRecagnition
+    
+    Recognition.addEventListener("result", (e) => {   //this is used for giving result which is we are speking
+        let transcript=[...e.results]
+        .map((result) => result[0])
+        .map((result) => result.transcript).join("");
+      if(e.results[0].isFinal){
+        let p=document.getElementById("para");   
+        p.textContent=transcript;
+      }    
+    })
+    Recognition.addEventListener("end",Recognition.start);
+
+    //start Recagnitin 
+    Recognition.start();
+}
+ -->

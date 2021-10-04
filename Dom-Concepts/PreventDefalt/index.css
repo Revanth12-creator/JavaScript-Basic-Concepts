@@ -1,0 +1,35 @@
+/* form{
+    position: relative;
+    margin-left: 500px;
+    margin-top: 200px;
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+}
+.fromBody {
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    color: red;
+}
+h2{
+    color:darkred;
+} */
+#div1{
+    width: 200px;
+    height: 200px;
+    background-color: springgreen;
+    align-items: center;
+
+}
+#link{
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    background-color: red;
+    margin: 50px;
+}
